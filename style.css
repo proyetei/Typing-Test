@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-*{
+* {
     box-sizing: border-box;
 }
 
-body, .quote-input{
+body{
     font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@ body, .quote-input{
 }
 
 .container {
-    background-color: #1abc9c;
+    background-color: #9065f6;
     padding: 1rem;
     border-radius: .5rem;
     width: 700px;
@@ -27,10 +27,28 @@ body, .quote-input{
     position: absolute;
     top: 2rem; /* pushes the timer upwards*/
     font-size: 3rem;
-    color: #1abc9c;
+    color: #9065f6;
 
 }
 
 .quote-display {
     margin-bottom: 1rem;
+}
+
+.quote-input{
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    height: 8rem; /*making this large also makes the outer container large*/
+    width: 100%; /*fills up the entire container*/
+    margin: auto;
+    padding: 1rem;
+    
+}
+
+.correct{
+    color: #27eb61;
+}
+
+.incorrect {
+
 }
