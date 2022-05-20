@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body, .quote-input{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* vh means viewport width */
+    margin: 0;
+    background-color: #34495e;
+    ;
+}
+
+.container {
+    background-color: #1abc9c;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 700px;
+    max-width: 90%;
+}
+/* rem: how many times the browser size. Since browser use 16px as default, 2rem = 32px */
+.timer {
+    position: absolute;
+    top: 2rem; /* pushes the timer upwards*/
+    font-size: 3rem;
+    color: #1abc9c;
+
+}
+
+.quote-display {
+    margin-bottom: 1rem;
+}
